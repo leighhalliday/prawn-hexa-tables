@@ -32,3 +32,7 @@ Prawn 100000
 Hexa 100000
 63.38208199990913
 ```
+
+## Other
+
+From Hexa, here is a comparison which shows similar performance results, but it should be noted that Hexa uses 1.4x memory of Prawn: https://gist.github.com/gettalong/8afae547ac3e50e9b8ce6c521a2a0eea
