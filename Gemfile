@@ -41,6 +41,11 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+gem 'faker', '~> 3.4', '>= 3.4.2'
+gem 'hexapdf', '~> 0.47.0'
+gem 'prawn', '~> 2.5'
+gem 'prawn-table', '~> 0.2.2'
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 

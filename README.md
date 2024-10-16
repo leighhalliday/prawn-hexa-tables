@@ -1,24 +1,32 @@
-# README
+# Prawn / Hexa Table Performance Test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+| Records | Prawn Speed         | Prawn Filesize | Hexa Speed          | Hexa Filesize |
+|---------|---------------------|----------------|---------------------|---------------|
+| 100     | 0.37063700007274747 | 27kb           | 0.16368599981069565 | 14kb          |
+| 1000    | 3.4797479999251664  | 256kb          | 0.5527800000272691  | 130kb         |
+| 10000   | 36.72769400011748   | 2.6mb          | 36.72769400011748   | 1.3mb         |
+| 100000  | 436.7839490000624   | 25.5mb         | 63.38208199990913   | 12.9mb        |
 
-Things you may want to cover:
+## Output
 
-* Ruby version
+```txt
+Prawn 100
+0.37063700007274747
+Hexa 100
+0.16368599981069565
 
-* System dependencies
+Prawn 1000
+3.4797479999251664
+Hexa 1000
+0.5527800000272691
 
-* Configuration
+Prawn 10000
+36.72769400011748
+Hexa 10000
+5.337353999959305
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Prawn 100000
+436.7839490000624
+Hexa 100000
+63.38208199990913
+```
