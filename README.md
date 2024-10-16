@@ -1,5 +1,7 @@
 # Prawn / Hexa Table Performance Test
 
+To run: `rake pdf:speed`
+
 | Records | Prawn Speed         | Prawn Filesize | Hexa Speed          | Hexa Filesize |
 |---------|---------------------|----------------|---------------------|---------------|
 | 100     | 0.37063700007274747 | 27kb           | 0.16368599981069565 | 14kb          |
